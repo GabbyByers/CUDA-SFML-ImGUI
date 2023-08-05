@@ -13,7 +13,7 @@ public:
 	Game(int width, int height) {
 		this->width = width;
 		this->height = height;
-		window = new sf::RenderWindow(sf::VideoMode(width, height), "CUDA Galaxy Simulation", sf::Style::Close);
+		window = new sf::RenderWindow(sf::VideoMode(width, height), "Unnamed Project", sf::Style::Close);
 		event = new sf::Event();
 
 		ImGui::SFML::Init(*window);
