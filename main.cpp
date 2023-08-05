@@ -24,6 +24,7 @@ int main() {
 	while (game.open()) {
 		game.eventHandler();
 
+		// ImGUI demo
 		ImGui::Begin("A Window Title!");
 		ImGui::Text("Some text in the window!");
 		ImGui::Text("Yet More Text! :3c");
