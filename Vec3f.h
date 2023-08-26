@@ -123,9 +123,9 @@ public:
 
     Vec3f cross(Vec3f vec3f) {
         Vec3f C;
-        C.x = (y * vec3f.z) + (z * vec3f.y);
-        C.y = (z * vec3f.x) + (x * vec3f.z);
-        C.z = (x * vec3f.y) + (y * vec3f.x);
+        C.x = (y * vec3f.z) - (z * vec3f.y);
+        C.y = (z * vec3f.x) - (x * vec3f.z);
+        C.z = (x * vec3f.y) - (y * vec3f.x);
         return C;
     }
 
